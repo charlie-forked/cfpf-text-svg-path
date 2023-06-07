@@ -3,7 +3,7 @@
 Convert text to SVG path without native dependence with Cloudflare Pages Functions.
 
 ```js
-import TextToSVG from "text-svg-path";
+import TextToSVG from "cfpf-text-svg-path";
 const textToSVG = new TextToSVG();
 
 export const onRequestGet = async (context) => {
